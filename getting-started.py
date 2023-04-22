@@ -53,6 +53,15 @@ names=["imran","matano","ngati"]
 #     print(find_perimeter(x,y))
 
 # for statement
-words=["cats","dogs","rain","sun"]
-for w in words:
-    print(w, len(w))
+# words=["cats","dogs","rain","sun"]
+# for w in words:
+#     print(w, len(w))
+
+users={
+    "imran":"active",
+    "matano":"inactive"
+}
+for user, status in users.copy().items():
+    if status=="inactive":
+        del users[user]
+        print(user,status)
