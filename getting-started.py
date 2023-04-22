@@ -37,10 +37,10 @@ names=["imran","matano","ngati"]
 # else:
 #     print("more")
 
+#find perimeter
 def find_perimeter(x,y):
     z=x+y
     return 2*z
-
 x=int(input("Enter lenght: "))
 y=int(input("Enter width: "))
 if x<0&y<0:
