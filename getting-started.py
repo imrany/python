@@ -57,11 +57,15 @@ names=["imran","matano","ngati"]
 # for w in words:
 #     print(w, len(w))
 
-users={
-    "imran":"active",
-    "matano":"inactive"
-}
-for user, status in users.copy().items():
-    if status=="inactive":
-        del users[user]
-        print(user,status)
+# users={
+#     "imran":"active",
+#     "matano":"inactive"
+# }
+# for user, status in users.copy().items():
+#     if status=="inactive":
+#         del users[user]
+#         print(user,status)
+
+# range
+for i in range(5):
+    print(i)
