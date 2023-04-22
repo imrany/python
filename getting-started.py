@@ -27,12 +27,27 @@ names=["imran","matano","ngati"]
 # print(names)
 
 # if statements
-x=int(input("Enter an integer: "))
-if x<0:
-    print("That's a negative integer, they are not allowed")
-elif x==0:
-    print("That's a zero")
-elif x==1:
-    print("That's one")
+# x=int(input("Enter an integer: "))
+# if x<0:
+#     print("That's a negative integer, they are not allowed")
+# elif x==0:
+#     print("That's a zero")
+# elif x==1:
+#     print("That's one")
+# else:
+#     print("more")
+
+def find_perimeter(x,y):
+    z=x+y
+    return 2*z
+
+x=int(input("Enter lenght: "))
+y=int(input("Enter width: "))
+if x<0&y<0:
+    print("Those are negative number, they are not allowed")
+elif x<0:
+    print("x is less than zero, that 's not allowed")
+elif y<0:
+    print("y is less than zero, that 's not allowed")
 else:
-    print("more")
+    print(find_perimeter(x,y))
