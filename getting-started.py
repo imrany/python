@@ -67,5 +67,8 @@ names=["imran","matano","ngati"]
 #         print(user,status)
 
 # range
-for i in range(5):
-    print(i)
+# for i in range(5):
+#     print(i)
+
+range_list=list(range(0,5))
+print(range_list)
